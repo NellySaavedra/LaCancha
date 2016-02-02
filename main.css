@@ -1,0 +1,60 @@
+.espacioTotal {
+	height: 400px;
+	width: 600px;
+	background-color: #3CB371;
+	position: absolute;
+}
+.espacioJuego {
+	height: 350px;
+	width: 550px;
+	border: 2px solid white;
+	margin: 24px;
+	position: relative;
+}
+.mediaCancha{
+	height: 100px;
+	width: 100px;
+	border-radius: 100px;
+	border: 2px solid white;
+	position: relative;
+	bottom: 230px;
+	left: 220px
+}
+.p1{
+	height: 190px;
+	width: 90px;
+	border: 2px solid white;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	position: relative;
+	border-left: 0px;
+
+}
+.p2 {
+	height: 190px;
+	width: 90px;
+	border: 2px solid white;
+	position: relative;
+	border-right: 0px;
+	left: 459px;
+	bottom: 375px;
+}
+.pelota {
+	height: 20px;
+	width:20px;
+	border-radius: 100%;
+	background-color: gray;
+	position: relative;
+}
+.bola1{
+ 	bottom: 580px;
+ 	left: 80px;
+}
+.bola2{
+	bottom: 590px;
+	left: 270px;
+}
+.bola3{
+	bottom: 440px;
+	left: 435px;
+}
