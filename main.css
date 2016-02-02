@@ -1,60 +1,59 @@
-.espacioTotal {
-	height: 400px;
-	width: 600px;
-	background-color: #3CB371;
+.verde{
+	height: 600px;
+	width: 900px;
+	background-color: green;
 	position: absolute;
 }
-.espacioJuego {
-	height: 350px;
-	width: 550px;
+.cancha{
+	height: 550px;
+	width: 850px;
 	border: 2px solid white;
-	margin: 24px;
-	position: relative;
+	margin: 25px;
+	
 }
-.mediaCancha{
-	height: 100px;
+.porteria1 {
+	height: 200px;
 	width: 100px;
-	border-radius: 100px;
 	border: 2px solid white;
-	position: relative;
-	bottom: 230px;
-	left: 220px
-}
-.p1{
-	height: 190px;
-	width: 90px;
-	border: 2px solid white;
-	margin-top: 80px;
-	margin-bottom: 80px;
-	position: relative;
 	border-left: 0px;
+	display: inline-block;
+	margin-top: 175px;
+	margin-bottom: 175px;
+}
+.porteria2 {
+	height: 200px;
+	width: 100px;
+	border: 2px solid white;
+	border-right: 0px;
+	display: inline-block;
+	margin-top: 175px;
+	margin-bottom: 175px;
+	margin-left: 256px;
+}
+.media {
+	height: 150px;
+	width: 150px;
+	border-radius: 100%;
+	border: 2px solid white;
+	display: inline-block;
+	margin-top: 195px;
+	margin-left: 230px;
+	margin-bottom: 195px;
 
 }
-.p2 {
-	height: 190px;
-	width: 90px;
-	border: 2px solid white;
-	position: relative;
-	border-right: 0px;
-	left: 459px;
-	bottom: 375px;
-}
-.pelota {
-	height: 20px;
-	width:20px;
+.balon {
+	height: 30px;
+	width: 30px;
+	background-color: red;
 	border-radius: 100%;
-	background-color: gray;
 	position: relative;
 }
-.bola1{
- 	bottom: 580px;
- 	left: 80px;
+.1{
+	left: 90px;
 }
-.bola2{
-	bottom: 590px;
-	left: 270px;
+.2{
+
 }
-.bola3{
-	bottom: 440px;
-	left: 435px;
+.3{
+
 }
