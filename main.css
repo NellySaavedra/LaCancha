@@ -1,59 +1,59 @@
+
 .verde{
-	height: 600px;
-	width: 900px;
+	height: 400px;
+	width: 600px;
 	background-color: green;
-	position: absolute;
+	position: relative;
+	padding: 5px;	
 }
 .cancha{
-	height: 550px;
-	width: 850px;
+	height: 350px;
+	width: 550px;
 	border: 2px solid white;
-	margin: 25px;
-	
-}
-.porteria1 {
-	height: 200px;
-	width: 100px;
-	border: 2px solid white;
-	border-left: 0px;
-	display: inline-block;
-	margin-top: 175px;
-	margin-bottom: 175px;
-}
-.porteria2 {
-	height: 200px;
-	width: 100px;
-	border: 2px solid white;
-	border-right: 0px;
-	display: inline-block;
-	margin-top: 175px;
-	margin-bottom: 175px;
-	margin-left: 256px;
-}
-.media {
-	height: 150px;
-	width: 150px;
-	border-radius: 100%;
-	border: 2px solid white;
-	display: inline-block;
-	margin-top: 195px;
-	margin-left: 230px;
-	margin-bottom: 195px;
-
-}
-.balon {
-	height: 30px;
-	width: 30px;
-	background-color: red;
-	border-radius: 100%;
+	margin: 24px;
 	position: relative;
 }
-.1{
-	left: 90px;
+.media {
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	border: 2px solid white;
+	position: relative;
+	top: -150px;
+	left: 220px;
 }
-.2{
-
+.area {
+	height: 190px;
+	width: 90px;
+	border: 2px solid white;
 }
-.3{
-
+.porteria1 {
+	margin-top: 80px;
+	border-left: 0px;
+	position: relative;
+}
+.porteria2 {
+	border-right: 0px;
+	left: 459px;
+	top: 80px;
+	position: absolute;
+}
+.balon{
+	height: 20px;
+	width: 20px;
+	background-color: red;
+	border-radius: 100%;
+	position: absolute;	
+}
+.uno {
+	bottom: 250px;
+	left: 80px;
+}
+.dos {
+	bottom: 220px;
+	left: 270px;
+}
+.tres {
+	bottom: 170px;
+	left: 435px;
 }
